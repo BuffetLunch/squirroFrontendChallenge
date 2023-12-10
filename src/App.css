@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+/* Transform a basic list into a customized list group */
+ul.list-group {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.list-group li {
+  border: 1px solid #000000;
+  margin-top: -1px; /* Prevent double borders */
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: #f6f6f6;
+  padding: 12px;
+}
+
+.rounded-top-right-20 {
+  border-top-right-radius: 20px!important;
+  border-top-left-radius: 20px!important;
+}
+
+.rounded-bottom-20 {
+  border-bottom-left-radius: 20px!important;
+  border-bottom-right-radius: 20px!important;
+}
